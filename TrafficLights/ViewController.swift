@@ -7,13 +7,13 @@
 
 import UIKit
 
+enum LightSwitcher {
+    case red
+    case yellow
+    case green
+}
+
 class ViewController: UIViewController {
-    
-    enum LightSwitcher {
-        case red
-        case yellow
-        case green
-    }
     
     @IBOutlet var redView: UIView!
     @IBOutlet var yellowView: UIView!
