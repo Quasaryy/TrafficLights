@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="P4u-hu-7cn">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="P4u-hu-7cn">
                                 <rect key="frame" x="146" y="79" width="101" height="340"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wv0-KG-k5G">
@@ -34,10 +34,8 @@
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="s1Q-lB-JUk" firstAttribute="centerY" secondItem="P4u-hu-7cn" secondAttribute="centerY" id="1kr-Vo-379"/>
                                     <constraint firstAttribute="height" constant="340" id="NIS-JJ-DRu"/>
                                     <constraint firstAttribute="width" constant="101" id="S9Q-dV-tCY"/>
-                                    <constraint firstItem="s1Q-lB-JUk" firstAttribute="top" secondItem="P4u-hu-7cn" secondAttribute="top" constant="120" id="UdB-rA-fqE"/>
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tJp-Lf-XN4">
